@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+"""
+Configuration file for DNS Zone Synchronization
+
+Copy this file to config.py and update the values below with your Infoblox settings.
+"""
+
+# Infoblox API Configuration
+INFOBLOX_API_URL = "https://csp.infoblox.com"
+INFOBLOX_API_TOKEN = "your_api_token_here"
+
+# DNS Views to synchronize
+DNS_VIEW_SOURCE = "AZURE-3"
+DNS_VIEW_TARGET = "AZURE-9"
+
+# DNS Zone to synchronize (note the trailing dot)
+DNS_ZONE_NAME = "privatelink.blob.core.windows.net."
