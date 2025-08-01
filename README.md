@@ -48,12 +48,7 @@ DNS_ZONE_NAME = "privatelink.blob.core.windows.net."
 
 ## Usage
 
-1. Test your configuration:
-```bash
-python3 test_connection.py
-```
-
-2. Run synchronization:
+Run synchronization:
 ```bash
 python3 sync_dns_zones.py
 ```
